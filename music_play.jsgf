@@ -1,0 +1,30 @@
+JSGF V1.0 utf-8 en-US; 
+
+grammar music_play;
+
+public <music_play> = (
+	music_play__album__artist |
+	music_play__artist |
+	music_play__genre
+);
+
+<music_play__album__artist> = ([can you] play [me] | i want to listen to) [the album] <album> by <artist> | put (on [the album] <album> by <artist> | [the album] <album> by <artist> on);
+
+<music_play__artist> = ([can you] play [me] | i want to listen to) artist] <artist> |  put (<artist> on | on <artist>);
+
+<music_play__genre> = ([can you] play [me] | i want to listen to) [some] <genre> [music] |  put (some <genre> on | on some <genre>);
+
+<album> =
+ummagumma |
+ok computer |
+born this way;
+
+<artist> = 
+pink floyd |
+lady gaga |
+radiohead;
+
+<genre> = 
+jazz |
+pop |
+rock;
