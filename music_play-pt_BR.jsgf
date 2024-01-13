@@ -10,7 +10,7 @@ public <music_play> = (
 
 <music_play__album__artist> = (colocar | [colocar para] (tocar | reproduzir) | [eu] quero [ouvir]) o (álbum | disco) <album> (de | por) <artist>;
 
-<music_play__artist> = (colocar | [colocar para] (tocar | reproduzir) | [eu] quero [ouvir]) [música | músicas de] <artist>;
+<music_play__artist> = (colocar | [colocar para] (tocar | reproduzir) | [eu] quero [ouvir]) [música de | músicas de] <artist>;
 
 <music_play__genre> = (colocar | [colocar para] (tocar | reproduzir) [músicas | músicas de] ) | [eu] quero [ouvir] [um]) <genre>;
 
